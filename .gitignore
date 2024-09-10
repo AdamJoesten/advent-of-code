@@ -1,0 +1,6 @@
+**/build
+**/input
+**/output
+c++/include
+c++/lib
+.vscode
