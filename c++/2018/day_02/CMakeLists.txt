@@ -1,4 +1,4 @@
-project(day_01)
+project(day_02)
 
 set(CMAKE_PREFIX_PATH "/home/adamj/projects/advent-of-code/c++")
 
@@ -11,10 +11,10 @@ set(CMAKE_PREFIX_PATH "/home/adamj/projects/advent-of-code/c++")
 # if(Boost_FOUND)
     # include_directories(${Boost_INCLUDE_DIR}) 
 
-    add_executable(day_01_part_01 day_01_part_01.cpp) 
-    add_executable(day_01_part_02 day_01_part_02.cpp) 
+    add_executable(day_02_part_01 day_02_part_01.cpp) 
+    add_executable(day_02_part_02 day_02_part_02.cpp) 
 
     # target_link_libraries(day_01 ${Boost_LIBRARIES})
 # else()
     # message(FATAL_ERROR "Boost not found!")
-# endif()
+#
