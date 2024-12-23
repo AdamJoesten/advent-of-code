@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include <optional>
+#include <map>
 
 struct Guard
 {
@@ -20,8 +21,8 @@ public:
     void Run();
 
 private:
-    std::tuple<long long, std::string> parse_line(const std::string &line);
-    long long parse_date_time(const std::string &line);
+    void parse_line(const std::string &line);
+    void parse_date_time(const std::string &line);
     std::string parse_action(const std::string &line);
     void process_action(const std::string &line, std::map<int, Guard> &guard_map);
 };
